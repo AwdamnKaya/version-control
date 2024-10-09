@@ -12,18 +12,6 @@ body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.header {
-    background-color: #989C94;
-    padding: 24px;
-}
-
-.header__page-title {
-    color: #25291C;
-    font-size: 4rem;
-    margin: 0;
-    text-align: center;
-}
-
 .git-commands {
     margin: 24px;
     display: grid;
