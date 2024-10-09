@@ -17,7 +17,7 @@ body {
     padding: 24px;
 }
 
-.header__page-title {
+.header_page-title {
     color: #25291C;
     font-size: 4rem;
     margin: 0;
@@ -44,7 +44,7 @@ body {
 }
 
 .footer {
-    position: absolute;
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -57,4 +57,19 @@ body {
 
 .footer p {
     font-size: 2rem;
+}
+
+@media (max-width: 791px){
+    .header__page-title {
+        font-size: 3rem;
+    }
+
+    .git-commands__command {
+        font-size: 1.6rem;
+    }
+
+    .git-commands__effect {
+        font-size: 1.2rem;
+    }
+
 }
